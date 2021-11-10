@@ -26,7 +26,7 @@
 
 .imageContainerUSA {
   padding-top: 0%;
-  margin-top: -2%;
+  margin-top: -1.25%;
 }
 
 .usaMap {
@@ -95,8 +95,8 @@
 }
 
 #Boston {
-  left: 67.7%;
-  top: 27%;
+  left: 68%;
+  top: 25.5%;
 }
 
 #DC {
@@ -106,15 +106,15 @@
 
 #Atlanta {
   left: 53%;
-  top: 60%;
+  top: 60.5%;
 }
 
 #Chicago {
   left: 46.75%;
-  top: 35.75%;
+  top: 35%;
 }
 
 #Orlando {
   left: 58.5%;
-  top: 75.%;
+  top: 79%;
 }

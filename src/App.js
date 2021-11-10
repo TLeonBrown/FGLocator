@@ -1,6 +1,6 @@
 import './App.css';
 import ny from './img/ny.svg';
-import usa from './img/usa.svg';
+import usa from './img/usanew.svg';
 import pin from './img/pin.png';
 
 function App() {
