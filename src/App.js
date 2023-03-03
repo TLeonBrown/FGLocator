@@ -8,33 +8,23 @@ function App() {
   let idToTitle = {
     'NewRochelle': 'New Rochelle',
     'NYC': 'NYC',
-    'Rochester': 'Rochester',
-    'Binghamton': 'Binghamton',
-    'Oneonta': 'Oneonta',
-    'NewJersey': 'New Jersey',
     'Hartford': 'Hartford, CT',
     'NewHaven': 'New Haven, CT',
     'Boston': 'Boston, MA',
     'DC': 'Washington, D.C.',
-    'Atlanta': 'Atlanta, GA',
-    'Chicago': 'Chicago, IL',
     'Orlando': 'Orlando, FL',
+    'California': 'California'
   }
 
   let idToInfo = {
-    'NewRochelle': 'Chris, Elias, James M, Jonathan, Jordan, RJ, Roshan',
-    'NYC': 'Jonny, Tian',
-    'Rochester': 'Emma, Griffin',
-    'Binghamton': 'Jack, Tristan',
-    'Oneonta': 'Jared',
-    'NewJersey': 'Jacob',
+    'NewRochelle': 'Jack, James M, Jonathan, Jordan, Robbie, RJ, Roshan',
+    'NYC': 'Chris, Jonny, Savi, Tian',
     'Hartford': 'Anton',
     'NewHaven': 'James K',
-    'Boston': 'Jeff, Ricky',
-    'DC': 'Anthony, Robbie',
-    'Atlanta': 'Savi',
-    'Chicago': 'Mattie C',
+    'Boston': 'Mattie C, Jeff, Ricky',
+    'DC': 'Anthony',
     'Orlando': 'Andrew',
+    'California': 'Elijah, Tristan'
   }
 
   const updateClassVisibility = (type, style) => {
@@ -95,10 +85,6 @@ function App() {
         <img id="ny" className="nyMap nyItem" src={ny} alt="r"></img>
         <img id="NewRochelle" className="pin nyItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
         <img id="NYC" className="pin nyItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
-        <img id="Binghamton" className="pin nyItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
-        <img id="Rochester" className="pin nyItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
-        <img id="NewJersey" className="pin nyItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
-        <img id="Oneonta" className="pin nyItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
         <img id="Hartford" className="pin nyItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
         <img id="NewHaven" className="pin nyItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
       </div>
@@ -107,9 +93,9 @@ function App() {
         <img id="usa" style={{display: 'none'}} className="usaMap usaItem" src={usa} alt="r"></img>
         <img id="Boston" style={{display: 'none'}} className="pin usaItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
         <img id="DC" style={{display: 'none'}} className="pin usaItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
-        <img id="Atlanta" style={{display: 'none'}} className="pin usaItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
-        <img id="Chicago" style={{display: 'none'}} className="pin usaItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
         <img id="Orlando" style={{display: 'none'}} className="pin usaItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
+        <img id="California" style={{display: 'none'}} className="pin usaItem" onClick={(e) => moveInfoText(e.target)} src={pin}></img>
+    
       </div>
 
       <p id="titleText" style={{display: 'none'}} className="titleText">text goes here</p>
