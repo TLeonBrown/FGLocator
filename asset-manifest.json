@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FGLocator/static/css/main.329e4cb4.chunk.css",
+    "main.js": "/FGLocator/static/js/main.eea2fd0c.chunk.js",
+    "main.js.map": "/FGLocator/static/js/main.eea2fd0c.chunk.js.map",
+    "runtime-main.js": "/FGLocator/static/js/runtime-main.467c08cf.js",
+    "runtime-main.js.map": "/FGLocator/static/js/runtime-main.467c08cf.js.map",
+    "static/js/2.316bc0fb.chunk.js": "/FGLocator/static/js/2.316bc0fb.chunk.js",
+    "static/js/2.316bc0fb.chunk.js.map": "/FGLocator/static/js/2.316bc0fb.chunk.js.map",
+    "static/js/3.7d854123.chunk.js": "/FGLocator/static/js/3.7d854123.chunk.js",
+    "static/js/3.7d854123.chunk.js.map": "/FGLocator/static/js/3.7d854123.chunk.js.map",
+    "index.html": "/FGLocator/index.html",
+    "static/css/main.329e4cb4.chunk.css.map": "/FGLocator/static/css/main.329e4cb4.chunk.css.map",
+    "static/js/2.316bc0fb.chunk.js.LICENSE.txt": "/FGLocator/static/js/2.316bc0fb.chunk.js.LICENSE.txt",
+    "static/media/ny.c3426a71.svg": "/FGLocator/static/media/ny.c3426a71.svg",
+    "static/media/pin.acfdadc9.png": "/FGLocator/static/media/pin.acfdadc9.png",
+    "static/media/usanew.0bd90b67.svg": "/FGLocator/static/media/usanew.0bd90b67.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.467c08cf.js",
+    "static/js/2.316bc0fb.chunk.js",
+    "static/css/main.329e4cb4.chunk.css",
+    "static/js/main.eea2fd0c.chunk.js"
+  ]
+}
